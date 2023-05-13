@@ -1,0 +1,44 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-EP5A6C4 MINGW64 /c/Git/test7 (main)
+$ git branch
+  first_branch
+* main
+
+Admin@DESKTOP-EP5A6C4 MINGW64 /c/Git/test7 (main)
+$ git log
+commit b5a084e6fad9748b62f56e9e2dddc57f64015ad2 (HEAD -> main, origin/main, origin/HEAD)
+Author: natata811 <124678711+natata811@users.noreply.github.com>
+Date:   Sat May 13 15:45:55 2023 +0300
+
+    Update index.html
+
+commit 103f4c8d756f418010c0edbd731f1c3de5649dc5
+Merge: 6d05b83 487f0ff
+Author: email <mnataliwv@gmail.com>
+Date:   Sat May 13 15:43:56 2023 +0300
+
+    Fix conflict
+
+commit 6d05b83e724840765891167ad71aae5ce0284c35
+Author: email <mnataliwv@gmail.com>
+Date:   Sat May 13 15:40:09 2023 +0300
+
+    New зміни
+
+commit 487f0ff17b63c464cdb98f12900f1225ed9871bc (origin/first_branch, first_branch)
+Author: email <mnataliwv@gmail.com>
+
+Admin@DESKTOP-EP5A6C4 MINGW64 /c/Git/test7 (main)
+$ git log --merges
+commit 103f4c8d756f418010c0edbd731f1c3de5649dc5
+Merge: 6d05b83 487f0ff
+Author: email <mnataliwv@gmail.com>
+Date:   Sat May 13 15:43:56 2023 +0300
+
+    Fix conflict
+
